@@ -28,7 +28,9 @@ print 'Chrome and its dependencies were installed succeeded'
 sudo apt-get install python-pip
 sudo install virtualenv
 print 'Installed pip and virtualenv done'
-
+# For python3
+sudo apt-apt install python-dev
+print 'Installed Python3 Dev Done.'
 sudo apt-get install python3-venv 
 print 'Installed py3-venv done, you can use python3 -m venv'
 
