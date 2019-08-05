@@ -1,0 +1,33 @@
+# Systen Settings
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# ZSH Settings
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Tmux
+alias tls="tmux ls"
+alias tns="tmux new -s"
+alias tat="tmux attach -t"
+
+# Git Command
+alias gpr="git pull --rebase"
+alias gp="git push origin "
+alias gcm='git commit -m '
+alias gc='git checkout '
+alias my_log='git log --author="zhibin.jiang"'
+
+# Htop
+alias htops="htop --sort-key=PERCENT_MEM"  # sort by memory
+
+# Database Services
+
+## Mongodb
+alias start_mongo="brew services start mongodb"
+alias stop_mongo="brew services start mongodb"
+
+## Postgresql
+alias stop_pg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop"
+alias start_pg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+
